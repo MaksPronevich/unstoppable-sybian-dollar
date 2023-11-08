@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "DS-Digital";
+		font-display: swap;
+		font-weight: 700;
+		src:
+			url("/fonts/DS-Digital-Bold.woff2") format("woff2"),
+			url("/fonts/DS-Digital-Bold.woff") format("woff");
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Bai Jamjuree";
+		font-display: swap;
+		font-weight: 400;
+		src:
+			url("/fonts/BaiJamjuree-Regular.woff2") format("woff2"),
+			url("/fonts/BaiJamjuree-Regular.woff") format("woff");
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Bai Jamjuree";
+		font-display: swap;
+		font-weight: 500;
+		src:
+			url("/fonts/BaiJamjuree-Medium.woff2") format("woff2"),
+			url("/fonts/BaiJamjuree-Medium.woff") format("woff");
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Bai Jamjuree";
+		font-display: swap;
+		font-weight: 600;
+		src:
+			url("/fonts/BaiJamjuree-SemiBold.woff2") format("woff2"),
+			url("/fonts/BaiJamjuree-SemiBold.woff") format("woff");
+		font-style: normal;
+	}
+}
